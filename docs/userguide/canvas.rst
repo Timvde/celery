@@ -1070,3 +1070,8 @@ of one:
 
 This means that the first task will have a countdown of one second, the second
 task a countdown of two seconds, and so on.
+
+.. note::
+
+    ``it`` must be an actual iterator, if you pass this a
+    concrete sequence will get you repeating elements.
